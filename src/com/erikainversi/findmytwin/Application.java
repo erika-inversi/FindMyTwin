@@ -26,6 +26,9 @@ public class Application {
 		// - Duplicate detection: group files with the same hash
 		// - Reporting: print duplicate groups with file names and paths
 
+		UserInputHandler userInputHandler = new UserInputHandler();
+		userInputHandler.readFolderPath();
+
 	}
 
 }
