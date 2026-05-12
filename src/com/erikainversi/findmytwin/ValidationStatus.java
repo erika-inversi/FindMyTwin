@@ -1,5 +1,8 @@
 package com.erikainversi.findmytwin;
 
-public class ValidationStatus {
+public enum ValidationStatus {
+
+	// INVALID_PATH_FORMAT
+	// VALID_PATH_FORMAT
 
 }

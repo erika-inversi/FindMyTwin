@@ -1,5 +1,6 @@
 package com.erikainversi.findmytwin;
 
-public enum PathValidationResult {
+public class ValidationResult {
 
+	
 }
