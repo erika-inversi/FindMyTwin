@@ -3,8 +3,21 @@ package com.erikainversi.findmytwin;
 public class Application {
 
 	public static void main(String[] args) {
+		System.out.println("------------");
+		System.out.println("FIND MY TWIN");
+		System.out.println("------------");
+		System.out.println("Please insert folder path");
 
 		// 1. Read folder path from user
+
+		UserInputHandler inputHandler = new UserInputHandler();
+		String path = inputHandler.readFolderPath();
+
+		InputPathValidator validator = new InputPathValidator();
+
+		ValidationResult result = validator.validatePath(path);
+
+		result.getValidationStatus();
 
 		// 2. Scan folders and sub-folders
 
